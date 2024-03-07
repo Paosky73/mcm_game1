@@ -15,7 +15,7 @@ def endless_scroll():
     pygame.display.set_caption("Endless Scroll")
 
     # Load image
-    bg = pygame.image.load("test.png").convert()
+    bg = pygame.image.load("moving background.png").convert()
     bg_width = bg.get_width()
     bg_rect = bg.get_rect()
 
