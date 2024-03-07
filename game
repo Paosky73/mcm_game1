@@ -39,7 +39,7 @@ read = file.readlines()
 high_score = int(read[0])
 lifetime = int(read[1])
 file.close()
-image = pygame.image.load('paofinal.png')
+image = pygame.image.load('game background.png')
 
 
 # all the code to move lines across screen and draw bg images
